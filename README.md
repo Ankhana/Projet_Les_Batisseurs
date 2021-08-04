@@ -29,12 +29,8 @@ Je n'ai pas pu développer une réelle intelligence de jeu, l'interface graphiqu
 
 #### ============= Arborescence =============
 
-code
-├── class
-│   ├── controler
-│   ├── game
-│   ├── util
-│   └── view
+```
+.
 ├── data
 │   ├── images
 │   │   ├── cartes
@@ -65,16 +61,16 @@ code
 │   ├── resources
 │   ├── util
 │   └── view
-├── src
-│   ├── controler
-│   ├── game
-│   ├── lib
-│   ├── test
-│   ├── util
-│   └── view
-└── ws
+└── src
+    ├── controler
+    ├── game
+    ├── lib
+    ├── test
+    ├── util
+    └── view
 
-43 dossiers et 324 fichiers
+37 dossiers et 300 fichiers
+```
 
 Le dossier class contient les codes compilé.
 Le dossier data contient toutes les ressources nécessaires au bon fonctionnement du jeu.
@@ -83,6 +79,6 @@ Le dossier src contient tous les fichiers sources du code du jeu.
 
 #### ============= Contenu du Manifest =============
 
-Main-Class: GameLauncher
+```Main-Class: GameLauncher```
 
 (le fichier Manifest.txt est créer automatique par le fichier buld.xml)
