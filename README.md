@@ -19,11 +19,10 @@ Je n'ai pas pu développer une réelle intelligence de jeu, l'interface graphiqu
 
 #### ============= Commandes =============
 
- - Compilation (depuis le répertoire ws) : javac -cp ../src/lib/hamcrest-core-1.3.jar:../src/lib/junit-4.12.jar -d ../class ../src/*/*.java ../src/*.java
+ - Compilation (depuis le répertoire ws) : ```javac -cp ../src/lib/hamcrest-core-1.3.jar:../src/lib/junit-4.12.jar -d ../class ../src/*/*.java ../src/*.java```
+ - Utilisation du build.xml pour la compilation et création du jar (à lancer à la racine) : ```ant```
  
- - Utilisation du build.xml pour la compilation et création du jar (à lancer à la racine) : ant
- 
- - Lancement du jar : java -jar Batisseurs_v1.0.jar
+ - Lancement du jar : ```java -jar Batisseurs_v1.0.jar```
 
 /!\ Le fichier jar doit être au même niveau que le dossier data pour fonctionner
 
