@@ -1,9 +1,9 @@
-# +-+-+-+ +-+-+-+-+-+-+-+-+-+-+ +-+ +-+-+-+-+-+-+-+-+-+
-# |L|e|s| |B|a|t|i|s|s|e|u|r|s| |:| |M|o|y|e|n|-|A|g|e|
-# +-+-+-+ +-+-+-+-+-+-+-+-+-+-+ +-+ +-+-+-+-+-+-+-+-+-+              
+## +-+-+-+ +-+-+-+-+-+-+-+-+-+-+ +-+ +-+-+-+-+-+-+-+-+-+
+## |L|e|s| |B|a|t|i|s|s|e|u|r|s| |:| |M|o|y|e|n|-|A|g|e|
+## +-+-+-+ +-+-+-+-+-+-+-+-+-+-+ +-+ +-+-+-+-+-+-+-+-+-+              
 
 
-# ============= Description =============
+#### ============= Description =============
 
 Nous avons une demande de Sébastien LEFÈVRE, Enseignant-chercheur en informatique qui aime les jeux-vidéos. Le client, par nostalgie, souhaite pouvoir jouer au jeu Les Bâtisseurs : Moyen-Âge sur son ordinateur (ou tablette, smartphone…). 
 
@@ -13,11 +13,11 @@ Le site de présentation du jeu : [site](https://studiobombyx.com/jeu/les-batis
 
 Le lien vers le PDF des règles du jeu : [règles](https://studiobombyx.com/assets/LES-BATISSEURS_MOYEN-AGE_rulebook_FR.pdf)
 
-# ============= Limitations =============
+#### ============= Limitations =============
 
 Je n'ai pas pu développer une réelle intelligence de jeu, l'interface graphique du plateau de jeu dû à un manque de temps.
 
-# ============= Commandes =============
+#### ============= Commandes =============
 
  - Compilation (depuis le répertoire ws) : javac -cp ../src/lib/hamcrest-core-1.3.jar:../src/lib/junit-4.12.jar -d ../class ../src/*/*.java ../src/*.java
  
@@ -27,7 +27,7 @@ Je n'ai pas pu développer une réelle intelligence de jeu, l'interface graphiqu
 
 /!\ Le fichier jar doit être au même niveau que le dossier data pour fonctionner
 
-# ============= Arborescence =============
+#### ============= Arborescence =============
 
 code
 ├── class
@@ -81,7 +81,7 @@ Le dossier data contient toutes les ressources nécessaires au bon fonctionnemen
 Le dossier doc contient lui toute la Javadoc.
 Le dossier src contient tous les fichiers sources du code du jeu.
 
-# ============= Contenu du Manifest =============
+#### ============= Contenu du Manifest =============
 
 Main-Class: GameLauncher
 
